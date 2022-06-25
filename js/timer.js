@@ -35,7 +35,7 @@ export default function Timer(
           if(secondsFinished) {
             minutes--;
             updateDisplay(minutes,seconds);
-            seconds = 5;
+            seconds = 60;
           }
           seconds--;
       
