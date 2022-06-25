@@ -7,6 +7,11 @@ export default function() {
   const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true");
 
 
+  treeAudio.loop = true;
+  rainAudio.loop = true;
+  cityAudio.loop = true;
+  campAudio.loop = true;
+  
   function initTree() {
     treeAudio.play();
   }

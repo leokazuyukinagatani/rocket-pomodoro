@@ -34,6 +34,7 @@ export default function Events (
 
   const stop = () => {
     timer.hold();
+    controls.play();
     timer.updateMinutes(minutes);
     sound.pressButton();
   }
